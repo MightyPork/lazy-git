@@ -6,15 +6,29 @@ Script for automating the most common git tasks.
 Usage
 -----
 
-    # git status
-    g check
+**Check status**
+
+- `git status`
+
+```
+g check
+```
+  
+**Pull from origin/master**
+  
+- ` git pull`
+
+```
+g pull
+```
+
+**Send to origin/master**
     
-    # git status
-    # git add --all
-    # git commit -m "...."
-    # git push origin master
-    g send
-    
-    # git pull
-    g pull
-    
+- `git status` (if no changes, stop here)
+- `git add --all`
+- `git commit -m "...."` (ask for message)
+- `git push origin master`
+
+```
+g send
+```
