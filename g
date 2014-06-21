@@ -13,9 +13,9 @@ function _status {
 function _pull {
 	echo
 
-	echo -e "\e[0;33m> git pull origin master\e[0m"
+	echo -e "\e[0;33m> git pull\e[0m"
 	echo
-	git pull origin master
+	git pull
 
 	echo
 }
@@ -57,9 +57,9 @@ function _send {
 	git commit -m "$msg"
 	echo
 
-	echo -e "\e[0;33m> git push origin master\e[0m"
+	echo -e "\e[0;33m> git push\e[0m"
 	echo
-	git push origin master
+	git push
 	echo
 }
 
